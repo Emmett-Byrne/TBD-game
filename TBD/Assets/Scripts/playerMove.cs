@@ -24,8 +24,20 @@ public class playerMove : MonoBehaviour {
     {
         if (col.gameObject.tag == "Ground")
         {
-            isGrounded = true;
+            for(int i = 0; i < col.contacts.Length; i++)
+            {
+                if(col.contacts[i].normal.y >= 0.9)
+                {
+                    isGrounded = true;
+                }
+            }
         }
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        print("Points colliding: " + col.contacts.Length);
+        print("First normal of the point that collide: " + col.contacts[0].normal);
     }
 
     void Update()
