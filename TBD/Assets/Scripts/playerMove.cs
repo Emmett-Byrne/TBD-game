@@ -22,7 +22,7 @@ public class playerMove : MonoBehaviour {
 
     void OnCollisionStay(Collision col)
     {
-        if (col.gameObject.tag == "Ground")
+        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "door")
         {
             for(int i = 0; i < col.contacts.Length; i++)
             {

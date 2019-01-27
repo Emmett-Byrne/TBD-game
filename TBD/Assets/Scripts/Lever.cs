@@ -5,9 +5,8 @@ using UnityEngine;
 public class Lever : MonoBehaviour
 {
     public GameObject door;
-  //  private Rigidbody rb;
-
-    float angle = -33f;
+    public GameObject lever;
+    //  private Rigidbody rb;
 
     void Start()
     {
@@ -19,6 +18,7 @@ public class Lever : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             door.SetActive(true);
+            lever.transform.Rotate(0f, 0f, -60f);
    //         rb.rotation.eulerAngles.Set(0.617f, -4.102f, -33.671f);
         }
     }
