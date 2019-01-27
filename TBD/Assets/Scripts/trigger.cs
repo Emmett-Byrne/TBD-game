@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trigger : MonoBehaviour
+public class trigger : MonoBehaviour
 {
     public GameObject door;
 

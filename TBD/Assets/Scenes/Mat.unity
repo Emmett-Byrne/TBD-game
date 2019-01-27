@@ -2254,7 +2254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983516488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 2.19, z: 0}
+  m_LocalPosition: {x: 41.9, y: 18.88, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2274,7 +2274,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!114 &983516494
 MonoBehaviour:
@@ -2802,7 +2802,7 @@ PrefabInstance:
     - target: {fileID: 2850821981188136070, guid: ee6cd54ae3627ac47a8ee9d3c1c3e42d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2850821981188136075, guid: ee6cd54ae3627ac47a8ee9d3c1c3e42d,
         type: 3}
@@ -3068,7 +3068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 1173917275}
+  door: {fileID: 1124182247}
 --- !u!114 &1339899550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3081,7 +3081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 1124182247}
+  door: {fileID: 1173917275}
 --- !u!1001 &1353323179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3222,7 +3222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 481665077}
+  door: {fileID: 432707025}
 --- !u!114 &1368239113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3235,7 +3235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 432707025}
+  door: {fileID: 481665077}
 --- !u!1 &1455914267
 GameObject:
   m_ObjectHideFlags: 0
@@ -3468,7 +3468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 1129230360}
+  door: {fileID: 34332438}
 --- !u!114 &1492579824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3481,7 +3481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 264637321}
+  door: {fileID: 407373620}
 --- !u!114 &1492579825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3494,7 +3494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 407373620}
+  door: {fileID: 264637321}
 --- !u!114 &1492579826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3507,7 +3507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08230a61aa8c744ead7d90506db3c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 34332438}
+  door: {fileID: 1129230360}
 --- !u!1001 &1493140900
 PrefabInstance:
   m_ObjectHideFlags: 0

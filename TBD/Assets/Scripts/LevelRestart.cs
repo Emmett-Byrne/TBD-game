@@ -10,7 +10,7 @@ public class LevelRestart : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("Mat");
+            SceneManager.LoadScene("Credits");
         }
     }
 
